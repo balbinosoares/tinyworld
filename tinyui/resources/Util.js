@@ -38,7 +38,7 @@ function openFirstDialog(){
 					data: insertdata,
 					dataType: "json",
 					crossDomain: true,
-					sucess: function(data){
+					success: function(data){
 						oFirstDialog.close();
 						sap.ui.getCore().byId("tinytab").getModel().refresh(true);
 						alert("Data inserted sucessfully");
